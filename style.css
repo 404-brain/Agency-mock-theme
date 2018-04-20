@@ -1,0 +1,14 @@
+/* label color */
+.input-field label {
+ color: black;
+}
+
+.input-field label:focus + label {
+ color: white;
+}
+
+#first-name-input, #last-name-input, #email-input{
+  color: #FF6A00FF;
+  border-bottom: 1px solid #FF6A00FF;
+  box-shadow:0 1px 0 0 #FF6A00FF;
+}
